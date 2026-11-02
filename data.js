@@ -47,7 +47,7 @@ const PLAYERS = [
   {"player": "Moddogski", "kills": 4127, "rounds": 3988, "deaths": 5723, "xp": 1878358, "level": 188},
   {"player": "ExtraRares", "kills": 4025, "rounds": 1783, "deaths": 3781, "xp": 1988709, "level": 199},
   {"player": "Luxxy", "kills": 3850, "rounds": 1502, "deaths": 2529, "xp": 1593091, "level": 160},
-  {"player": "IVCESKI", "kills": 4074, "rounds": 849, "deaths": 1030, "xp": 1687877, "level": 169},
+  {"player": "IVCESKI", "kills": 4160, "rounds": 860, "deaths": 1037, "xp": 1714977, "level": 172},
   {"player": "Booonaana", "kills": 3658, "rounds": 1950, "deaths": 4017, "xp": 1496025, "level": 150},
   {"player": "Tmouse", "kills": 3535, "rounds": 1411, "deaths": 3068, "xp": 1131676, "level": 114},
   {"player": "DuckDucer", "kills": 3505, "rounds": 1692, "deaths": 3798, "xp": 1527802, "level": 153},
