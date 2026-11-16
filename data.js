@@ -4,11 +4,11 @@ const PLAYERS = [
   {"player": "piñata", "kills": 31105, "rounds": 9158, "deaths": 10387, "xp": 14648693, "level": 1465}, //UPDATED
   {"player": "minionbob", "kills": 27001, "rounds": 7251, "deaths": 11691, "xp": 11398704, "level": 1140}, //UPDATED
   {"player": "NQ", "kills": 23824, "rounds": 9018, "deaths": 12590, "xp": 8864609, "level": 887}, //UPDATED//
-  {"player": "CADAVER", "kills": 21724, "rounds": 4476, "deaths": 4829, "xp": 8445456, "level": 845, "retired": true},
+  {"player": "CADAVER", "kills": 17740, "rounds": 4476, "deaths": 3937, "xp": 8445456, "level": 845, "retired": true}, //UPDATED & Fixed//
   {"player": "Lunar (Citizen)", "kills": 20076, "rounds": 6479, "deaths": 6382, "xp": 9092366, "level": 910},
   {"player": "Sleepy T", "kills": 19368, "rounds": 7441, "deaths": 10938, "xp": 9496893, "level": 950},
   {"player": "Ivceski965", "kills": 19271, "rounds": 7274, "deaths": 9368, "xp": 7942036, "level": 795},
-  {"player": "AnarchyzZ", "kills": 17107, "rounds": 7135, "deaths": 7494, "xp": 7034510, "level": 704},
+  {"player": "AnarchyzZ", "kills": 17107, "rounds": 7135, "deaths": 7494, "xp": 7034510, "level": 704, "retired": true}, //UPDATED
   {"player": "Chibiusagi", "kills": 17018, "rounds": 9051, "deaths": 21302, "xp": 6088256, "level": 609}, //UPDATED//
   {"player": "JOHN", "kills": 16120, "rounds": 5873, "deaths": 11937, "xp": 6363478, "level": 637},
   {"player": "StandingTrain", "kills": 16286, "rounds": 4366, "deaths": 6445, "xp": 4824425, "level": 483}, //UPDATED
@@ -80,5 +80,5 @@ const PLAYERS = [
   {"player": "wafffles", "kills": 1207, "rounds": 1085, "deaths": 1685, "xp": 568952, "level": 57},
   {"player": "bobert", "kills": 1111, "rounds": 1259, "deaths": 2415, "xp": 418962, "level": 42},
   {"player": "simall", "kills": 7381, "rounds": 3696, "deaths": 7037, "xp": 2567534, "level": 257}, //UPDATED//
-  {"player": "Ducky [Vox]", "kills": 4689, "rounds": 1717, "deaths": 2415, "xp": 2339484, "level": 234}, //UPDATED//
+  {"player": "Ducky [Vox]", "kills": 4689, "rounds": 1717, "deaths": 1748, "xp": 2339484, "level": 234}, //UPDATED//
 ];
