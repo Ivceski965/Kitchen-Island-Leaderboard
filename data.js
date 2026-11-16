@@ -54,7 +54,7 @@ const PLAYERS = [
   {"player": "Bean", "kills": 3451, "rounds": 1336, "deaths": 2070, "xp": 1707196, "level": 171},
   {"player": "Ess/Splitcolor", "kills": 3381, "rounds": 2085, "deaths": 4434, "xp": 1239507, "level": 124},
   {"player": "Pib", "kills": 3147, "rounds": 1528, "deaths": 3475, "xp": 1154786, "level": 116},
-  {"player": "tonycliftonshade", "kills": 2726, "rounds": 571, "deaths": 787, "xp": 1350115, "level": 136},
+  {"player": "tonycliftonshade", "kills": 2726, "rounds": 571, "deaths": 787, "xp": 1350115, "level": 136, "retired": true},
   {"player": "diamondguy", "kills": 2396, "rounds": 1532, "deaths": 1844, "xp": 825908, "level": 83, "retired": true},
   {"player": "Zork", "kills": 2358, "rounds": 840, "deaths": 1626, "xp": 1077078, "level": 108},
   {"player": "Synthetic", "kills": 2341, "rounds": 952, "deaths": 2252, "xp": 924869, "level": 93},
