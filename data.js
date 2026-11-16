@@ -4,7 +4,7 @@ const PLAYERS = [
   {"player": "piñata", "kills": 31105, "rounds": 9158, "deaths": 10387, "xp": 14648693, "level": 1465}, //UPDATED
   {"player": "minionbob", "kills": 27001, "rounds": 7251, "deaths": 11691, "xp": 11398704, "level": 1140}, //UPDATED
   {"player": "NQ", "kills": 23824, "rounds": 9018, "deaths": 12590, "xp": 8864609, "level": 887}, //UPDATED//
-  {"player": "CADAVER", "kills": 21724, "rounds": 4476, "deaths": 4829, "xp": 8445456, "level": 845},
+  {"player": "CADAVER", "kills": 21724, "rounds": 4476, "deaths": 4829, "xp": 8445456, "level": 845, "retired": true},
   {"player": "Lunar (Citizen)", "kills": 20076, "rounds": 6479, "deaths": 6382, "xp": 9092366, "level": 910},
   {"player": "Sleepy T", "kills": 19368, "rounds": 7441, "deaths": 10938, "xp": 9496893, "level": 950},
   {"player": "Ivceski965", "kills": 19271, "rounds": 7274, "deaths": 9368, "xp": 7942036, "level": 795},
