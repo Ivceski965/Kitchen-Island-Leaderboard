@@ -17,7 +17,7 @@ const PLAYERS = [
   {"player": "GoldenGrave2025", "kills": 13449, "rounds": 4120, "deaths": 8217, "xp": 5083872, "level": 509},
   {"player": "Qwuetsy", "kills": 13494, "rounds": 5218, "deaths": 5843, "xp": 5361786, "level": 537}, //UPDATED//
   {"player": "Mr. Strawberry", "kills": 13987, "rounds": 4862, "deaths": 9215, "xp": 5321390, "level": 533}, //UPDATED//
-  {"player": "MRBUNGLE", "kills": 11266, "rounds": 2669, "deaths": 2122, "xp": 5084877, "level": 600},
+  {"player": "MRBUNGLE", "kills": 11266, "rounds": 2669, "deaths": 2122, "xp": 5084877, "level": 600}, "retired": true}, //UPDATED//
   {"player": "Tancred Payans", "kills": 11448, "rounds": 3036, "deaths": 5280, "xp": 4589025, "level": 459}, //UPDATED//
   {"player": "Mr Cookie", "kills": 10756, "rounds": 5560, "deaths": 10389, "xp": 4622403, "level": 463},
   {"player": "Dorky", "kills": 10317, "rounds": 4716, "deaths": 4162, "xp": 4670074, "level": 468},
