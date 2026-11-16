@@ -24,7 +24,7 @@ const PLAYERS = [
   {"player": "C.A.S.S.I.E. \"Ra", "kills": 9620, "rounds": 4601, "deaths": 6343, "xp": 4588564, "level": 459},
   {"player": "NE0N", "kills": 9036, "rounds": 4169, "deaths": 6362, "xp": 4945111, "level": 495},
   {"player": "Awaremez", "kills": 8815, "rounds": 3459, "deaths": 4001, "xp": 4435842, "level": 444},
-  {"player": "bosh", "kills": 8599, "rounds": 2828, "deaths": 2956, "xp": 3141494, "level": 315},
+  {"player": "bosh", "kills": 8599, "rounds": 2828, "deaths": 2956, "xp": 3141494, "level": 315, "retired": true},
   {"player": "Night", "kills": 8447, "rounds": 2742, "deaths": 6082, "xp": 2742314, "level": 274},
   {"player": "Dabudebu", "kills": 10455, "rounds": 2724, "deaths": 7531, "xp": 3938026, "level": 394}, //UPDATED//
   {"player": "fluffypotato", "kills": 8721, "rounds": 2595, "deaths": 5446, "xp": 2438024, "level": 244}, //UPDATED//
