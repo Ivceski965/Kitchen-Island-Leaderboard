@@ -42,9 +42,11 @@ function render() {
 function rowHtml(p, rank) {
   const tier = rank <= 3 ? 't' + rank : rank <= 10 ? 'm' : 'l';
   const cell = key => 'num' + (key === mode ? ' act' : '');
-  return `<div class="row ${tier}">
+  const retired = p.retired ? ' retired' : '';
+  const badge = p.retired ? '<span class="badge">RETIRED</span>' : '';
+  return `<div class="row ${tier}${retired}">
     <span class="rank">${rank}.</span>
-    <span class="name">${esc(p.player)}</span>
+    <span class="name">${esc(p.player)}${badge}</span>
     <span class="${cell('kills')}">${fmt(p.kills)}</span>
     <span class="${cell('kd')}">${p.kd.toFixed(2)}</span>
     <span class="${cell('deaths')}">${fmt(p.deaths)}</span>
