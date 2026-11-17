@@ -9,6 +9,7 @@ const MODES = [
 let players = [];
 let mode = 'kills';
 let query = '';
+let activeOnly = false;
 
 const fmt = n => n.toLocaleString('en-AU');
 const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -26,13 +27,16 @@ function renderTabs() {
 }
 
 function render() {
-  const ranked = [...players]
+  // When "Active players only" is on, retired players are removed before ranking,
+  // so ranks are recalculated among active players.
+  const pool = activeOnly ? players.filter(p => !p.retired) : players;
+  const ranked = [...pool]
     .sort((a, b) => b[mode] - a[mode])
     .map((p, i) => ({ p, rank: i + 1 }))
     .filter(x => x.p.player.toLowerCase().includes(query));
 
   document.getElementById('sub').textContent =
-    `${players.length} players ranked by ${MODES.find(m => m.key === mode).label}`;
+    `${pool.length} ${activeOnly ? 'active ' : ''}players ranked by ${MODES.find(m => m.key === mode).label}`;
 
   document.getElementById('rows').innerHTML = ranked.length
     ? ranked.map(({ p, rank }) => rowHtml(p, rank)).join('')
@@ -66,6 +70,13 @@ document.getElementById('tabs').addEventListener('click', e => {
 
 document.getElementById('q').addEventListener('input', e => {
   query = e.target.value.trim().toLowerCase();
+  render();
+});
+
+document.getElementById('activeOnly').addEventListener('click', e => {
+  activeOnly = !activeOnly;
+  e.currentTarget.classList.toggle('on', activeOnly);
+  e.currentTarget.setAttribute('aria-pressed', activeOnly);
   render();
 });
 
