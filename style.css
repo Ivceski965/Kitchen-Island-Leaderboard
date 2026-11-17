@@ -54,6 +54,19 @@ input {
   font: inherit;
 }
 
+.toggle {
+  flex: 0 0 auto;
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--mute);
+  padding: 0 16px;
+  border-radius: 10px;
+  font: 600 14px inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+.toggle.on { color: var(--text); border-color: var(--accent); box-shadow: inset 0 -3px 0 var(--accent); }
+
 /* Table */
 .scroll { overflow-x: auto; }
 .head, .row {
