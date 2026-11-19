@@ -62,7 +62,7 @@ const PLAYERS = [
   {"player": "Mastooper", "kills": 2374, "rounds": 2059, "deaths": 3081, "xp": 1144618, "level": 115}, //UPDATED//
   {"player": "Blue Sparrow", "kills": 2171, "rounds": 678, "deaths": 1702, "xp": 755460, "level": 76},
   {"player": "Scratcher", "kills": 2051, "rounds": 1516, "deaths": 3042, "xp": 773895, "level": 90},
-  {"player": "knucklehead", "kills": 2014, "rounds": 719, "deaths": 912, "xp": 796235, "level": 80},
+  {"player": "knucklehead", "kills": 2014, "rounds": 719, "deaths": 912, "xp": 796235, "level": 80, "retired": true},
   {"player": "Sikmatan", "kills": 1834, "rounds": 928, "deaths": 1986, "xp": 738910, "level": 74},
   {"player": "Barney", "kills": 1766, "rounds": 890, "deaths": 1414, "xp": 605618, "level": 61},
   {"player": "Manhole", "kills": 1723, "rounds": 990, "deaths": 1623, "xp": 734813, "level": 74},
