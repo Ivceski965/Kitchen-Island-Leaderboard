@@ -32,7 +32,7 @@ const PLAYERS = [
   {"player": "business monke", "kills": 7507, "rounds": 4885, "deaths": 6810, "xp": 3011794, "level": 302},
   {"player": "Grapefruit", "kills": 8125, "rounds": 3647, "deaths": 4733, "xp": 3755509, "level": 376}, //UPDATED//
   {"player": ":)", "kills": 7105, "rounds": 2497, "deaths": 4277, "xp": 2113871, "level": 212},
-  {"player": "iquov", "kills": 6396, "rounds": 2370, "deaths": 2904, "xp": 3024889, "level": 303},
+  {"player": "iquov", "kills": 7971, "rounds": 2754, "deaths": 3537, "xp": 3701409, "level": 371}, //UPDATED//
   {"player": "Grandwizardmar", "kills": 6268, "rounds": 1744, "deaths": 3670, "xp": 2647991, "level": 265},
   {"player": "RADIODEMON", "kills": 6148, "rounds": 2432, "deaths": 5219, "xp": 2085168, "level": 209},
   {"player": "wizbuck", "kills": 9428, "rounds": 2091, "deaths": 2477, "xp": 3583012, "level": 359}, //UPDATED//
@@ -82,5 +82,4 @@ const PLAYERS = [
   {"player": "simall", "kills": 7381, "rounds": 3696, "deaths": 7037, "xp": 2567534, "level": 257}, //UPDATED//
   {"player": "Ducky [Vox]", "kills": 4689, "rounds": 1717, "deaths": 1748, "xp": 2339484, "level": 234}, //UPDATED//
   {"player": "dogey", "kills": 5669, "rounds": 1403, "deaths": 2720, "xp": 2582682, "level": 259}, //UPDATED//
-  {"player": "iquov", "kills": 7971, "rounds": 2754, "deaths": 3537, "xp": 3701409, "level": 371}, //UPDATED//
 ];
