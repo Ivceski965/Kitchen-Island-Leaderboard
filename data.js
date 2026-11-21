@@ -46,7 +46,7 @@ const PLAYERS = [
   {"player": "Moddogski", "kills": 4127, "rounds": 3988, "deaths": 5723, "xp": 1878358, "level": 188},
   {"player": "ExtraRares", "kills": 5064, "rounds": 2232, "deaths": 4757, "xp": 2475571, "level": 248}, //UPDATED//
   {"player": "Luxxy", "kills": 4377, "rounds": 1697, "deaths": 2811, "xp": 1848502, "level": 185}, //UPDATED//
-  {"player": "IVCESKI", "kills": 4540, "rounds": 939, "deaths": 1138, "xp": 1882032, "level": 189}, //UPDATED//
+  {"player": "IVCESKI", "kills": 4746, "rounds": 976, "deaths": 1180, "xp": 1955332, "level": 196}, //UPDATED//
   {"player": "Booonaana", "kills": 3658, "rounds": 1950, "deaths": 4017, "xp": 1496025, "level": 150},
   {"player": "Tmouse", "kills": 3535, "rounds": 1411, "deaths": 3068, "xp": 1131676, "level": 114},
   {"player": "DuckDucer", "kills": 3505, "rounds": 1692, "deaths": 3798, "xp": 1527802, "level": 153},
@@ -82,4 +82,5 @@ const PLAYERS = [
   {"player": "simall", "kills": 7381, "rounds": 3696, "deaths": 7037, "xp": 2567534, "level": 257}, //UPDATED//
   {"player": "Ducky [Vox]", "kills": 4689, "rounds": 1717, "deaths": 1748, "xp": 2339484, "level": 234}, //UPDATED//
   {"player": "dogey", "kills": 5669, "rounds": 1403, "deaths": 2720, "xp": 2582682, "level": 259}, //UPDATED//
+  {"player": "iquov", "kills": 7971, "rounds": 2754, "deaths": 3537, "xp": 3701409, "level": 371}, //UPDATED//
 ];
