@@ -82,4 +82,5 @@ const PLAYERS = [
   {"player": "simall", "kills": 7381, "rounds": 3696, "deaths": 7037, "xp": 2567534, "level": 257}, //UPDATED//
   {"player": "Ducky [Vox]", "kills": 4689, "rounds": 1717, "deaths": 1748, "xp": 2339484, "level": 234}, //UPDATED//
   {"player": "dogey", "kills": 5669, "rounds": 1403, "deaths": 2720, "xp": 2582682, "level": 259}, //UPDATED//
+  {"player": "Finn", "kills": 5768, "rounds": 2963, "deaths": 3807, "xp": 2106257, "level": 211}, //UPDATED//
 ];
